@@ -124,12 +124,36 @@
       "oAP" : "\/dev\/content\/svg\/foreground\/middle\/red-mtn.html",
       "oF" : 0
     },
+    "\/dev\/content\/svg\/land.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/land.html",
+      "oF" : 0
+    },
     "\/dev\/content\/svg\/moon.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/svg\/moon.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/rocket-pop.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/rocket-pop.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/sky.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/sky.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {

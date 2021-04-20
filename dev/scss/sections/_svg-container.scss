@@ -13,7 +13,7 @@
 	}
 
 	@include xl{
-		grid-template-columns: auto 1200px auto;
+		grid-template-columns: auto 50% auto;
 	}
 	>div {
 		display: flex;
