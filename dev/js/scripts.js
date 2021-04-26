@@ -4,5 +4,9 @@ import { GSDevTools } from "gsap/GSDevTools";
 gsap.registerPlugin(GSDevTools);
 GSDevTools.create();
 
+import { moveInTL } from "./moveIn";
 
-// gsap.to("#moon",{scale:5, alpha:0, duration:5});
+
+let mainTL = gsap.timeline();
+
+mainTL.add(moveInTL);
