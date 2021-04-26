@@ -1,4 +1,8 @@
 import { gsap } from "gsap";
+import { GSDevTools } from "gsap/GSDevTools";
+
+gsap.registerPlugin(GSDevTools);
+GSDevTools.create();
 
 
-gsap.to("#moon",{scale:5, alpha:0, duration:5});
+// gsap.to("#moon",{scale:5, alpha:0, duration:5});
