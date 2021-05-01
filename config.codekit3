@@ -144,6 +144,17 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
+    "\/dev\/js\/enterPop.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/enterPop-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/moveIn.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -407,7 +418,7 @@
   "projectAttributes" : {
     "creationDate" : 639010553.72737396,
     "displayValue" : "BlairA-Motion-SVGLaunch",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-peach",
     "iconImageWasSetByUser" : 0
   },
