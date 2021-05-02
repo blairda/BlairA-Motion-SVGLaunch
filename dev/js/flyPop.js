@@ -35,10 +35,6 @@ flyPopTL.from("#ice-cream",{duration:2, y:"-=400", alpha:0}, "fly")
         .to("#candy-7",{duration:0.5, scale:1.25, repeat:"-1", yoyo:true}, "c16")
         .to("#candy-8",{duration:0.5, scale:0.75, repeat:"-1", yoyo:true}, "c28")
         .to("#candy-9",{duration:0.5, scale:1.25, repeat:"-1", yoyo:true}, "c39")
-        .to("#candy-10",{duration:0.5, scale:0.75, repeat:"-1", yoyo:true}, "c410")
-
-
-;
-
+        .to("#candy-10",{duration:0.5, scale:0.75, repeat:"-1", yoyo:true}, "c410");
 
 // MotionPathHelper.create("#rocket-pop");

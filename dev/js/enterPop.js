@@ -12,4 +12,4 @@ enterPopTL.fromTo("#rocket-pop", {duration:1, alpha:0, y:"+=125"}, {duration:1, 
             .to("#rocket-pop", {duration: 1, ease: "bounce.out", y: "+=325"})
             .to(".rocket-lines-b", {duration:0.25, alpha:0.5, stroke:"#ffffff", repeat:5, yoyo:true})
             .to(".rocket-lines-w", {duration:0.25, alpha:0.5, stroke:"#ffffff", repeat:5, yoyo:true}, "-=0.5")
-            .to(".rocket-lines-r", {duration:0.25, alpha:0.5, stroke:"#ffffff", repeat:3, yoyo:true}, "-=0.25");
+            .to(".rocket-lines-r", {duration:0.25, alpha:0.5, stroke:"#ffffff", repeat:3, yoyo:true}, "-=0.5");
