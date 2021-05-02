@@ -15,11 +15,12 @@ let mainTL = gsap.timeline({paused:true});
 mainTL.add(moveInTL)
         // .addLabel("marker")
         .add(enterPopTL)
-        .addLabel("marker")
+        // .addLabel("marker")
         .add(liftOffPopTL, "-=3")
+        // .addLabel("marker")
         .add(flyPopTL, "-=1.5");
 
 
 
-    mainTL.play("marker");
-    // mainTL.play();
+    // mainTL.play("marker");
+    mainTL.play();
