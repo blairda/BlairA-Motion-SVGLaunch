@@ -13,10 +13,11 @@ import { flyPopTL } from "./flyPop";
 let mainTL = gsap.timeline({paused:true});
 
 mainTL.add(moveInTL)
-        .addLabel("marker")
+        // .addLabel("marker")
         .add(enterPopTL)
+        .addLabel("marker")
         .add(liftOffPopTL, "-=3")
-        .add(flyPopTL);
+        .add(flyPopTL, "-=1.5");
 
 
 
