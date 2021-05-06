@@ -25,7 +25,9 @@ flyPopTL.from("#ice-cream",{duration:2, y:"-=400", alpha:0}, "fly")
             scale:1
         }, "fly")
 
-        .fromTo("#candies circle",{alpha:0, scale:0},{display: "block", alpha: 1, scale:1, duration:2}, "-=3.5")
+        .fromTo("#ic-landing-chocolate",{alpha:0, scale:0, y:"+=10"},{display: "block", alpha: 1, scale:1, y:"-=10", duration:0.2})
+
+        .fromTo("#candies circle",{alpha:0, scale:0},{display: "block", alpha: 1, scale:1, duration:2}, "-=3")
         .to("#candy-1",{duration:0.5, scale:1.25, repeat:"-1", yoyo:true}, "c16")
         .to("#candy-2",{duration:0.5, scale:0.75, repeat:"-1", yoyo:true}, "c28")
         .to("#candy-3",{duration:0.5, scale:1.25, repeat:"-1", yoyo:true}, "c39")
